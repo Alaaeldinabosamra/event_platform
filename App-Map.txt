@@ -1,0 +1,19 @@
+step 1: project set up
+>>  npx create-next-app@latest ./
+
+step 2: go to website ui.shadcn.com and install package library of it [using for dashboard data]
+>>  npx shadcn-ui@latest init
+>>  npx shadcn-ui@latest add button [ to add components to my project]
+
+step 3: we change our props in layout file change  Inter to Poppins to change font style all over the app
+>> then we modify the title and description and create new two folder for auth and routes and move the page file to root
+
+step 4: we setup clerk account [best freindly website for making authentication method to apps]
+>> sign in and add new app and put project name and install deps in our app follow docummentation
+>> npm install @clerk/nextjs
+>> then set enviroment keys => making env.local file and paste the key then making middleware file and paste from docs and add <cleckProvider> in app layout file
+>> we use <SignedIn><SignedOut><UserButton> to show user profile and authentication
+>> https://ui.shadcn.com/ install sheet to make navigation menu for mobile
+
+step 5:
+>>npm install svix to connect backend with clerk by using webhooks
