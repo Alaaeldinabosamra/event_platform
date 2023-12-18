@@ -17,3 +17,11 @@ step 4: we setup clerk account [best freindly website for making authentication 
 
 step 5:
 >>npm install svix to connect backend with clerk by using webhooks
+
+<<GIT DEPLOY>>
+>> git init
+>> git add .
+>> git commit -m 'first commit'
+>> git branch -M main
+>> git remote add origin https://github.com/Alaaeldinabosamra/event_platform.git
+>> git push -u origin main
